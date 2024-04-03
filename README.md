@@ -8,15 +8,16 @@ There exists only one game with this special Swiss flag: [Cashtown](https://aban
 
 You can find the two text files created by the scripts in the `results` folder.
 
-## Requirements
+## Installation
 
-You'll need the following libraries to execute these scripts:
-- [Requests](https://pypi.org/project/requests/)
-- [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+We advise you to work in a virtualenv. To install the `requirements.txt` file, run the following command in a terminal:
+
+- Unix/macOS: `python3 -m pip install -r requirements.txt`
+- Windows: `py -m pip install -r requirements.txt`
 
 ## Scripts
 
-This repo contains two Python scripts.
+This repo contains three Python scripts.
 
 - `links_scraper.py` : Used to retrieve a list of all the links to the games' pages. They are then stored in a file named "game_links.txt". This script should be executed first.
 - `check_links.py`: Used to verify there are no duplicates in the "game_links.txt" file.

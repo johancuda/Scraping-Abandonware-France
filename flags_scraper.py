@@ -19,7 +19,7 @@ def main():
     # Starting scraping
     print("Process started...")
     # Read all game links scraped using links_scraper.py
-    with open("game_links.txt", "r") as file:
+    with open("results/game_links.txt", "r") as file:
         links = file.readlines()
         # Initializes count to display in terminal
         count = 1
