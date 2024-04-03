@@ -2,6 +2,12 @@
 
 A scraping project of the website [Abandonware France](https://abandonware-france.org/) to retrieve the games with a Swiss flag on their page.
 
+## Results
+
+There exists only one game with this special Swiss flag: [Cashtown](https://abandonware-france.org/ltf_abandon/ltf_jeu.php?id=3860).
+
+You can find the two text files created by the scripts in the `results` folder.
+
 ## Requirements
 
 You'll need the following libraries to execute these scripts:
