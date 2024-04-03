@@ -16,6 +16,10 @@ This repo contains two Python scripts.
 - `check_links.py`: Used to verify there are no duplicates in the "game_links.txt" file.
 - `flags_scraper.py` : Used to scrape each game's page and then parses the HTML to find the flags present on the page. If the game's page has a Swiss flag, the page's link is then stored in a file named "swiss_games.txt"
 
+## License
+
+Distributed under the MIT License. See LICENSE.txt for more information.
+
 ## Credits
 
-Made by Johan Cuda, student assistant in the [CH Ludens](https://chludens.ch/) Sinergia project.
+Made by Johan Cuda (johan.cuda@unil.ch), student assistant in the [CH Ludens](https://chludens.ch/) Sinergia project.
